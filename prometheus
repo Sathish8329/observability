@@ -13,3 +13,9 @@ helm repo update
 
 NAMESPACE FOR MONITORING
 kubectl create ns monitoring
+
+
+INSTALL PROMETHEUS
+helm install monitoring prometheus-community/kube-prometheus-stack \
+-n monitoring \
+-f ./custom-stack-alert.yml
