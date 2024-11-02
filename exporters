@@ -1,0 +1,6 @@
+node exporters - deploy as daemonset and collects the metrics of the nodes (vm), like cpu, memory, disk space.
+kube-state-metrics - scrapes  metrics from api scheduler in the cluster, collects information like pod status, configmaps, deployments and everything in the cluster. 
+custom-metrics - scrapes metrics which are related to the application. such as time taken to process the http request. how any of them created an account in one week, one month like that.
+
+instrumentation of metrics developer write these.
+stores data in timeseries database.
